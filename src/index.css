@@ -6,6 +6,12 @@
   --light-pg:#24baef;
   --main-font:"Montserrat", sans-serif;
   --font-color:#fff;
+
+}
+.font{
+  color:#EAD8B1 ;
+  font-weight: bold;
+ 
 }
 body {
  font-family: var(--main-font);
@@ -13,9 +19,35 @@ body {
  color: var(--font-color);
 }
 /* common style */
+.offline{
+  position: fixed;
+  left: 50px;
+  bottom: 40px;
+  width: 180px;
+  height: 35px;
+  background-color: var(--light-pg);
+  color: rgb(20, 20, 20);
+  box-shadow: 5px 2px 5px #5f5a5a;
+  text-align: center;
+  line-height: 2;
+border-radius: 7px;
+z-index: 100;
+font-weight: bold;
+}
+.brdr{
+ height: 1px;
+ background-color:#a8a8a83d ;
+}
+.vote{
+  background-color: var(--light-pg);
+  
+}
 a{
   color: var(--font-color);
   text-decoration: none;
+}
+.cursurPointer{
+  cursor: pointer;
 }
 .my-imnput{
   background-color: transparent;
